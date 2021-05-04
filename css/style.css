@@ -1,0 +1,19 @@
+@import "nav.css";
+@import "frontpage.css";
+@import "catalogue.css";
+@import "animation.css";
+@import "mobile.css";
+:root{
+    --maincolour: #57606f;
+    --subcolour: #ced6e0;
+    --navcolour: #ff6348;
+    --tablemaincolour: #1e90ff;
+    --tablesubcolour: #7bed9f;
+    --tabletopcolour: #ff4757;
+    --tablehovercolour: #2f3542;
+    font-family: 'Rubik', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}

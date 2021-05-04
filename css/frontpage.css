@@ -1,0 +1,25 @@
+@import "animation.css";
+.frontpage-section{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--maincolour);
+}
+h1{
+    font-size: 6rem;
+    display: block;
+    padding-top: 10rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+.pointdown{
+    padding-top: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

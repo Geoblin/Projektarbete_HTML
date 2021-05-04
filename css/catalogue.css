@@ -1,0 +1,39 @@
+.catalogue-section{
+    background-color: var(--subcolour);
+    height: 100vh;
+    width: 100%;
+}
+th{
+    background-color: var(--tabletopcolour);
+}
+tr:nth-child(even){
+    background-color: var(--tablemaincolour);
+}
+tr:nth-child(even):hover{
+    background-color: var(--tablehovercolour);
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: var(--tablesubcolour);
+}
+tr:nth-child(odd):hover{
+    background-color: var(--tablehovercolour);
+    color: white;
+}
+th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+td, th{
+    border: 1px solid #ddd;
+    height: 2rem;
+    text-align: center;
+}
+.phonebook{
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
